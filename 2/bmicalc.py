@@ -2,6 +2,6 @@
 height = 1.65 
 weight = 84
 
-bmi = weight/(height*height)
+bmi = weight/(height ** 2)
 
-print(bmi)
+print(round(bmi, 2))
